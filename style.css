@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+width:1200px;
+margin:0 auto;
+border: 1px solid black;
+font-family:arial, verdana, sans-serif;
+}
+#header{
+	background:brown;
+	width:1180px;
+padding:20px 10px;
+color:white;
+}
+#nav{
+	background:orange;
+	width:1200px;
+	height:50px;
+}
+#nav ul{
+	list-style:none;
+}
+  #nav ul li{
+	  float:left;
+	  width:240px;
+	  padding:15px 0px;
+	  text-align:center;
+  }
+  #nav ul li:hover{
+	  background: #ffd280;
+	  color:brown;
+  }
+  #nav a {
+	  color:black;
+  }
+#middle{
+	height:700px;
+}
+#left{
+	width:900px;
+	height:700px;
+	float:left;
+}
+.post{
+	margin:20px;
+	height:200px;
+		}
+	     	.title{
+			background:brown;
+			padding:15px 10px;
+			color:white;
+			font-size:25px;
+			font-weight:bold;
+		}
+.description{
+			background:#f1f1f1;
+			padding:20px;
+			color:black;	
+		}
+#right{
+	width:260px;
+	height:700px;
+	float:left;
+	padding:20px;
+}
+#right h2{
+	text-align:center;
+	}
+	#latest-post-group{
+		margin:10px 0;	
+	}
+	.latest-post{
+		background:brown;
+		padding:10px 0;
+		color:white;
+		text-align:center;
+		margin:10px 0;
+	}
+	#news-letter{
+	}
+	.new-letter-head{
+	text-align:center;
+	font-size:25px;
+	}
+	input[type = "text"]{
+		width:260px;
+		height:30px;
+	}
+	input[type = "submit"]{
+          width:260px;
+       background:orange;
+	   color:black;
+	   padding:10px 0;
+	   border:none;
+	   font-size:20px;
+		margin:10px 0;
+	}
+	input[type = "submit"]:hover{ 
+       background:orange;
+	   color:white;
+	}
+#footer{
+	background:brown;
+	width:1200px;
+	padding-bottom:15px;
+	color:white;
+	text-align:center;
+}
